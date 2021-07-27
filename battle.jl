@@ -188,11 +188,6 @@ function battle(names; t=1)
 
     team_one = names[1:split]
     team_two = names[split+1:length(names)]
-    # if length(team_one) > length(team_two)
-    #     pop!(team_one)
-    # elseif length(team_two) > length(team_one)
-    #     pop!(team_two)
-    # end
 
     empty_square_name = repeat(" ", square_length)
     dead_square_name = repeat(" ", square_length)
